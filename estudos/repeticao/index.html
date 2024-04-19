@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bora contar?</h1>
+    </header>
+    <section>
+        <div id="dados ">
+            <p>Início: 
+                <input type="number" name="inicio" id="inicio" min="1">
+            </p>
+            <p>Fim: 
+                <input type="number" name="fim" id="fim">
+                <label for="fim"></label>
+            </p>
+
+            <p>Passo:
+                <input type="number" name="pass" id="pass">
+                <label for="pass"></label>
+            </p>
+            
+            <p>
+                <input type="button" value="Contar" onclick="check()">
+            </p>
+        </div>
+        <div id="res">
+            Contagem...
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
