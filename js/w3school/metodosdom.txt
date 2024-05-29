@@ -1,0 +1,27 @@
+//Metodo que muda o texto escrito dentro do id passado .Nesse caso "demo". 'getElementById' é o método, .innerHTML é a propriedade
+document.getElementById("demo").innerHTML = "Hello World!";
+/*
+Alterando elementos html
+
+element.innerHTML = novo conteúdo HTML Altera o HTML interno de um elemento
+element.attribute = novo valor Altera o valor do atributo de um elemento HTML
+element.style.property = novo estilo Altera o estilo de um elemento HTML
+Método Descrição
+element.setAttribute(atributo, valor) Altera o valor do atributo de um elemento HTML
+
+Adicionando e excluindo elementos
+
+Method	Description
+document.createElement(element)	Create an HTML element
+document.removeChild(element)	Remove an HTML element
+document.appendChild(element)	Add an HTML element
+document.replaceChild(new, old)	Replace an HTML element
+document.write(text)	Write into the HTML output stream
+
+Este exemplo altera o valor do atributo src de um <img>
+
+antes era = <img id="myImage" src="smiley.gif">
+depois = document.getElementById("myImage").src = "landscape.jpg";
+
+
+*/
